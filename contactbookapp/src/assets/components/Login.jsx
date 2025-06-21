@@ -13,6 +13,9 @@ const Login = () => {
     <Box
       sx={{
         height: '100vh',
+        backgroundImage: 'url(https://t3.ftcdn.net/jpg/02/92/90/56/360_F_292905667_yFUJNJPngYeRNlrRL4hApHWxuYyRY4kN.jpg)',
+        backgroundSize: 'cover',
+        
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -20,6 +23,11 @@ const Login = () => {
       }}
     >
       <Paper elevation={5} sx={{ padding: 10, width: 300 }}>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2609/2609282.png" // Place this image in the public folder
+          alt="Contact Book"
+          style={{ width: '100px', marginBottom: '20px' }}
+        />
         <Typography variant="h5" align="center" gutterBottom>
           LOGIN PAGE
         </Typography>
