@@ -24,6 +24,14 @@ const NavBar = () => {
                 <Link to="/View">
                 <Button variant="contained" color='inherit'>View</Button>
                 </Link>
+
+                 <Link to="/Ab">
+                <Button variant="contained" color='inherit'>Aboutus</Button>
+                </Link>
+
+
+
+
                  </Box>
     
 
